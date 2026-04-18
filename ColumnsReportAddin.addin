@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Columns Report</Name>
+    <Assembly>ColumnsReportAddin.dll</Assembly>
+    <AddInId>E8F3A2D1-7B4C-4E9A-B6D5-1C3F8A0E2D4B</AddInId>
+    <FullClassName>ColumnsReportAddin.App</FullClassName>
+    <VendorId>KAITECH</VendorId>
+    <VendorDescription>KAITECH</VendorDescription>
+  </AddIn>
+</RevitAddIns>

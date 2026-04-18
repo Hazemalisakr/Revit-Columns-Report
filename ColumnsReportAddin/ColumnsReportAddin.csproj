@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ColumnsReportAddin</RootNamespace>
+    <AssemblyName>ColumnsReportAddin</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.97.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="RevitAPI">
+		<HintPath>D:\Program Files\Autodesk\Revit 2024\RevitAPI.dll</HintPath>
+		<Private>false</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+		<HintPath>D:\Program Files\Autodesk\Revit 2024\RevitAPIUI.dll</HintPath>
+		<Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\column.png">
+      <LogicalName>ColumnsReportAddin.Resources.column.png</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

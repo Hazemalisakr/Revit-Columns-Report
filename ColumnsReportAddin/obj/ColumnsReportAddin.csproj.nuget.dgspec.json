@@ -1,0 +1,59 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mm\\.gemini\\antigravity\\brain\\df2a5a1d-a4ec-40ae-a6c5-4ad3281be992\\ColumnsReportAddin\\ColumnsReportAddin\\ColumnsReportAddin.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mm\\.gemini\\antigravity\\brain\\df2a5a1d-a4ec-40ae-a6c5-4ad3281be992\\ColumnsReportAddin\\ColumnsReportAddin\\ColumnsReportAddin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mm\\.gemini\\antigravity\\brain\\df2a5a1d-a4ec-40ae-a6c5-4ad3281be992\\ColumnsReportAddin\\ColumnsReportAddin\\ColumnsReportAddin.csproj",
+        "projectName": "ColumnsReportAddin",
+        "projectPath": "C:\\Users\\mm\\.gemini\\antigravity\\brain\\df2a5a1d-a4ec-40ae-a6c5-4ad3281be992\\ColumnsReportAddin\\ColumnsReportAddin\\ColumnsReportAddin.csproj",
+        "packagesPath": "C:\\Users\\mm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mm\\.gemini\\antigravity\\brain\\df2a5a1d-a4ec-40ae-a6c5-4ad3281be992\\ColumnsReportAddin\\ColumnsReportAddin\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.97.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
